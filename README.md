@@ -1,9 +1,5 @@
-# ionic-mosum
-Ionic Weather App - The goal of this weather app is to demo different ionic component in a nice working app. Contributions are welcome for any good feature.
-- Website - https://aggarwalankush.github.io/ionic-mosum
-- iOS - https://itunes.apple.com/us/app/mosum/id1244641359?ls=1&mt=8
-- Android - https://play.google.com/store/apps/details?id=com.aggarwalankush.mosum
-
+## ashie_weather
+Ionic Weather App - The goal of this weather app is to demo different ionic component in a nice working app. 
 ## Prerequisites
 - Download nodejs from https://nodejs.org/en/download/current/ and it will install `node` and `npm`
 ```bash
@@ -26,12 +22,12 @@ npm -v
     $ npm install
     $ npm install --only=dev  
     ```
-* Get weather API key from [DarkSky](https://darksky.net)
+
   * Replace API_KEY in `src/providers/constants.ts`
   ```js
   export const FORECAST_CONFIG = {
-    API_ENDPOINT: 'https://api.darksky.net/forecast/',
-    API_KEY: '9bb59ff3063ac4930fc96890570b0c6f'
+    API_ENDPOINT: https://api.openweathermap.org/data/2.5/forecast?q=harare&appid=034da672af3e87a27b2bfb04a03baaa1,
+    API_KEY: '034da672af3e87a27b2bfb04a03baaa1'
   };
   ```
 * Get google API key from [Google Developers Console](https://console.developers.google.com/apis/credentials)
@@ -91,19 +87,10 @@ Run post_install script
 * Various Animations
 * Infinite scroll
 * Google Maps API
-* SQL Database and WebSQL in browser
-* Weather caching to avoid redundant http requests
-* 3rd party libraries - lodash, moment, moment-timezone
-* Works in all timezones 
 
-## Contribution
-Contributions are welcome!
-
-See [features planned for future](https://github.com/aggarwalankush/ionic-mosum/issues/2) to get contributing ideas.
 
 * Report issues
 * Open pull request with improvements
 * Spread the word
 
-## License
-ionic-mosum is available under the MIT license. See the LICENSE file for more info.
+
