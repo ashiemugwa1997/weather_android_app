@@ -1,0 +1,7 @@
+{
+  "name": "Ashie_weather",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
