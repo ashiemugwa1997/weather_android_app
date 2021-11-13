@@ -69,7 +69,8 @@ export class ForecastService {
     return Observable.throw(errMsg);
   }
 
-  private getRequestUri(_location: Location): string {
-    return 'https://api.openweathermap.org/data/2.5/forecast?q=harare&appid=034da672af3e87a27b2bfb04a03baaa1';
+  private getRequestUri(location: Location): string {
+    return FORECAST_CONFIG.API_ENDPOINT + FORECAST_CONFIG.API_KEY + '/' + location.lat + ',' + location.lng
+      + '?units=us&lang=en&exclude=currently,minutely,alerts,flags&callback=JSONP_CALLBACK';
   }
 }
