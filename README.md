@@ -1,8 +1,5 @@
 # ionic-mosum
-Ionic Weather App - The goal of this weather app is to demo different ionic component in a nice working app. Contributions are welcome for any good feature.
-- Website - https://aggarwalankush.github.io/ionic-mosum
-- iOS - https://itunes.apple.com/us/app/mosum/id1244641359?ls=1&mt=8
-- Android - https://play.google.com/store/apps/details?id=com.aggarwalankush.mosum
+Ionic Weather App - The goal of this weather app is to demo different ionic compon
 
 ## Prerequisites
 - Download nodejs from https://nodejs.org/en/download/current/ and it will install `node` and `npm`
