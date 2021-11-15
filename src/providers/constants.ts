@@ -9,8 +9,8 @@ export const DEFAULT_METRICS = {
 };
 
 export const FORECAST_CONFIG = {
-  API_ENDPOINT: 'https://api.darksky.net/forecast/',
-  API_KEY: '9bb59ff3063ac4930fc96890570b0c6f'
+  API_ENDPOINT: 'https://api.openweathermap.org/data/2.5/forecast?q',
+  API_KEY: '034da672af3e87a27b2bfb04a03baaa1'
 };
 
 export const CONFIG = {

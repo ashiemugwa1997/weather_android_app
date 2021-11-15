@@ -26,13 +26,10 @@ npm -v
     $ npm install
     $ npm install --only=dev  
     ```
-* Get weather API key from [DarkSky](https://darksky.net)
+* 
   * Replace API_KEY in `src/providers/constants.ts`
   ```js
-  export const FORECAST_CONFIG = {
-    API_ENDPOINT: 'https://api.darksky.net/forecast/',
-    API_KEY: '9bb59ff3063ac4930fc96890570b0c6f'
-  };
+
   ```
 * Get google API key from [Google Developers Console](https://console.developers.google.com/apis/credentials)
   * Replace key in `src/index.html`
@@ -45,8 +42,7 @@ npm -v
 
 #### Browser
 ```bash
-    # iOS 
-    ionic serve --platform ios
+    
     # Android
     ionic serve --platform android
     # All Platforms(iOS, Android and Windows)
@@ -61,24 +57,9 @@ npm -v
     $ ionic cordova run android --prod
 ```
 
-### iOS
-```bash
-    $ ionic cordova platform add ios
-    $ ionic cordova build ios --prod
-```    
-    Run using XCode
-    
-### icon resources
-Run post_install script
-```bash
-    $ ./post_install.sh
-```    
     
 ### Screenshots
 
-* Phone
-
-  <img src="screenshots/android-ios-phone.jpg" alt="android-ios-phone" width="500"/>
   
 * Tablet
   
@@ -90,20 +71,10 @@ Run post_install script
 * Tabs, Side Menu with image
 * Various Animations
 * Infinite scroll
-* Google Maps API
-* SQL Database and WebSQL in browser
-* Weather caching to avoid redundant http requests
-* 3rd party libraries - lodash, moment, moment-timezone
-* Works in all timezones 
 
 ## Contribution
 Contributions are welcome!
 
-See [features planned for future](https://github.com/aggarwalankush/ionic-mosum/issues/2) to get contributing ideas.
-
 * Report issues
 * Open pull request with improvements
 * Spread the word
-
-## License
-ionic-mosum is available under the MIT license. See the LICENSE file for more info.
